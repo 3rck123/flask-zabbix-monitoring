@@ -21,15 +21,15 @@ Passo a Passo para Rodar a Aplicação
 
 Construa e inicie os containers:
 
-  sudo docker-compose up -d --build
+    sudo docker-compose up -d --build
 
 Verifique se os containers estão rodando:
 
-  sudo docker ps
+    sudo docker ps
 
 Acesse a aplicação Flask via navegador ou curl:
 
-  http://localhost:5000
+    http://localhost:5000
 
 Configuração do Zabbix
 
@@ -39,7 +39,7 @@ Configuração do Zabbix
 
 Edite o arquivo de configuração:
 
-  nano /etc/zabbix/zabbix_agentd.conf
+    nano /etc/zabbix/zabbix_agentd.conf
 
   Configure os seguintes parâmetros:
 
@@ -49,7 +49,7 @@ Edite o arquivo de configuração:
 
 Reinicie o agente Zabbix:
 
-  service zabbix-agent restart
+    service zabbix-agent restart
 
 No Zabbix Server:
 
