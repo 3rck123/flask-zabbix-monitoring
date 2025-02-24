@@ -16,7 +16,7 @@ Passo a Passo para Rodar a Aplicação
 
   Clone o repositório:
 
-    git clone https://github.com/seuusuario/flask-zabbix-monitoring.git
+    git clone https://github.com/3rck123/flask-zabbix-monitoring.git
     cd flask-zabbix-monitoring
 
 Construa e inicie os containers:
